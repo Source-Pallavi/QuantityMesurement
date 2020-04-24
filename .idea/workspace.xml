@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88ea8be-ed2e-4bd6-8c1a-b16375e40c59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Inch1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,13 +12,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Feet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Feet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Feet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Inch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Inch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/web.BridageLabz.QuantityMesurment.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/web.BridageLabz.QuantityMesurment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Feet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Inch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Inch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +33,23 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,26 +88,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="QuantityMesurmentTest.given0FeetAnd0Feet_shouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.given0FeetAnd0Feet_shouldReturnEqual&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -146,12 +142,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMesurmentTest.given1FeetAnd2Feeyt_shouldReturnNot_Equal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMesurmentTest.given1InchAnd2Inch_shouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.given1FeetAnd2Feeyt_shouldReturnNot_Equal&quot;" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.given1InchAnd2Inch_shouldReturnEqual&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuantityMesurmentTest.given1feetand_1inch_Shouldreturn_NOTEQUAL" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.given1feetand_1inch_Shouldreturn_NOTEQUAL&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.QuantityMesurmentTest" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.given1feetand_1inch_Shouldreturn_NOTEQUAL" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.given1InchAnd2Inch_shouldReturnEqual" />
         <item itemvalue="Gradle.QuantityMesurmentTest.given0inchAnd1inch_shouldReturnNot_Equal" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.given1FeetAnd2Feeyt_shouldReturnNot_Equal" />
         <item itemvalue="Gradle.QuantityMesurmentTest.given1FeetAnd2Feet_shouldReturnNot_Equal" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.given0FeetAnd0Feet_shouldReturnEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -190,22 +206,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587726524093">
+    <state x="522" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587727190034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587726524093" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587726524093">
+    <state x="522" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1587727190034" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587728521831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587726524093" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587726524093">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587728521831" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587728521831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587726524093" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587726524093">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587728521831" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587728521831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587726524093" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587728521831" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587728521831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587728521831" />
     <state x="583" y="193" key="chooseDestDirectoryDialog" timestamp="1587724813677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,15 +242,18 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
+          <line>28</line>
+          <properties class="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" method="given0inchAnd1inch_shouldReturnNot_Equal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/QuantityMersurement$QuantityMesurmentTest.ic" NAME="QuantityMesurmentTest Coverage Results" MODIFIED="1587726524055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/QuantityMersurement$QuantityMesurmentTest.ic" NAME="QuantityMesurmentTest Coverage Results" MODIFIED="1587728521811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

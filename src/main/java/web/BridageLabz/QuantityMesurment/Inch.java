@@ -1,10 +1,10 @@
 package web.BridageLabz.QuantityMesurment;
 
-class Inch {
+public class Inch {
     private final double v;
 
-    public Inch(double v) {
-        this.v=v;
+    public Inch(double value) {
+        this.v=value;
     }
 
     @Override

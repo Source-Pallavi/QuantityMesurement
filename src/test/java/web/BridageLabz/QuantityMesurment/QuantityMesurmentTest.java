@@ -6,34 +6,36 @@ import org.junit.Test;
 public class QuantityMesurmentTest {
     @Test
     public void given0FeetAnd0Feet_shouldReturnEqual() {
-        Feet feet = new Feet(0.0);
-        Feet feet1= new Feet(0.0);
-        Assert.assertEquals(feet,feet1);
+        Length length = new Length(Length.Unit.FEET,0.0);
+        Length length1 = new Length(Length.Unit.FEET,0.0);
+        Assert.assertEquals(length, length1);
     }
     @Test
     public void given1FeetAnd2Feet_shouldReturnNot_Equal()
     {
-        Feet feet = new Feet(0.0);
-        Feet feet1= new Feet(1.0);
-        boolean eq=feet.equals(feet1);
+        Length length = new Length(Length.Unit.FEET,0.0);
+        Length length1 = new Length(Length.Unit.FEET,1.0);
+        boolean eq= length.equals(length1);
         Assert.assertFalse(eq);
     }
     @Test
-    public void given1FeetAnd2Feeyt_shouldReturnEqual()
+    public void given1InchAnd2Inch_shouldReturnEqual()
     {
-        Inch inch1 = new Inch(0.0);
-        Inch inch2 = new Inch(0.0);
-Assert.assertEquals(inch1,inch2);
-
-
+        Length length = new Length(Length.Unit.INCH,0.0);
+        Length length1 = new Length(Length.Unit.INCH,0.0);
+Assert.assertEquals(length,length1);
     }
     @Test
     public void given0inchAnd1inch_shouldReturnNot_Equal()
-    {
-        Inch inch1 = new Inch(0.0);
-        Inch inch2 = new Inch(1.0);
-        Assert.assertNotEquals(inch1,inch2);
+    {Length length = new Length(Length.Unit.INCH,0.0);
+        Length length1 = new Length(Length.Unit.INCH,1.0);
+        Assert.assertNotEquals(length,length1);
     }
-    
 
+    @Test
+    public void given1feetand_1inch_Shouldreturn_NOTEQUAL()
+    {Length length = new Length(Length.Unit.INCH,1.0);
+        Length length1 = new Length(Length.Unit.FEET,1.0);
+        Assert.assertNotEquals(length,length1);
+    }
 }
