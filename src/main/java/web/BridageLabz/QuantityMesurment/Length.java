@@ -4,7 +4,7 @@ public class Length {
     private static final double FEET_TO_INCH =12.0 ;
     private final Unit unit;
     private final double value;
-    enum Unit{ FEET,INCH};
+    enum Unit{ FEET,INCH}
 
     public Length(Unit unit,double value)
     { this.unit=unit;

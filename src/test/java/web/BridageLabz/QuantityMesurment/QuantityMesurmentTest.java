@@ -3,7 +3,8 @@ package web.BridageLabz.QuantityMesurment;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class QuantityMesurmentTest {
+public class QuantityMesurmentTest
+{
     @Test
     public void given0FeetAnd0Feet_shouldReturnEqual() {
         Length length = new Length(Length.Unit.FEET,0.0);
@@ -18,6 +19,7 @@ public class QuantityMesurmentTest {
         boolean eq= length.equals(length1);
         Assert.assertFalse(eq);
     }
+
     @Test
     public void given1InchAnd2Inch_shouldReturnEqual()
     {
@@ -54,5 +56,13 @@ Assert.assertEquals(length,length1);
         Length length1 = new Length(Length.Unit.FEET,1.0);
         boolean checkCompare= length.compare(length1);
         Assert.assertTrue(checkCompare);
+    }
+
+    @Test
+    public void whenWeCheck1InchIsNotEqTo1Feet() {
+        Length length = new Length(Length.Unit.FEET,1.0);
+        Length length1 = new Length(Length.Unit.INCH,12.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertTrue(comparecheck);
     }
 }
