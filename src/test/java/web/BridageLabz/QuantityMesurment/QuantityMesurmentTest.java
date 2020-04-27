@@ -128,8 +128,33 @@ Assert.assertEquals(length,length1);
     public void whenWeAdd2inch_Plus_2inch_Returns_4inch()
     {
         SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
-        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,3.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
         double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
         Assert.assertEquals(sum,4.0,0.0);
     }
+    @Test
+    public void whenWeAdd1feet_Plus_2Inch_Returns_14inch()
+    {
+        SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.FEET,1.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
+        double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
+        Assert.assertEquals(sum,14.0,0.0);
+    }
+    @Test
+    public void whenWeAdd1feet_Plus_1Feet_Returns_24inch()
+    {
+        SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.FEET,1.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.FEET,1.0);
+        double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
+        Assert.assertEquals(sum,24.0,0.0);
+    }
+    @Test
+    public void whenWeAdd2inch_Plus_2_5CM_Returns_3inch()
+    {
+        SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.CENTIMETER,2.54);
+        double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
+        Assert.assertEquals(sum,3.0,0.0);
+    }
+
 }
