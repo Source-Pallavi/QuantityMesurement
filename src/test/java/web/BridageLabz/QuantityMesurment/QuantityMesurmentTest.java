@@ -80,4 +80,11 @@ Assert.assertEquals(length,length1);
         boolean comparecheck=length.compare(length1);
         Assert.assertTrue(comparecheck);
     }
+    @Test
+    public void whenWeCompare1FeetnotEqToOneYardreturnsFALSE() {
+        Length length = new Length(Length.Unit.FEET,1.0);
+        Length length1 = new Length(Length.Unit.YARD,1.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertFalse(comparecheck);
+    }
 }
