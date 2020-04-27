@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88ea8be-ed2e-4bd6-8c1a-b16375e40c59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/ComparingVolumes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -23,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/SmallestUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/SmallestUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="231" />
+    <option name="myElementSize" value="233" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -64,7 +64,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1az2pSaNEVKF4q5M2Ttw4Z9JXA1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,47 +89,7 @@
       <recent name="web.BridageLabz.QuantityMesurment" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch">
-    <configuration name="QuantityMesurmentTest.whenWeAdd1feet_Plus_1Feet_Returns_24inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeAdd1feet_Plus_1Feet_Returns_24inch&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="QuantityMesurmentTest.whenWeAdd1feet_Plus_2Inch_Returns_14inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeAdd1feet_Plus_2Inch_Returns_14inch&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE">
     <configuration name="QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,6 +130,46 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="QuantityMesurmentTest.whenWeCompare1_gallon_to_3pt78liters_returnTRUE" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeCompare1_gallon_to_3pt78liters_returnTRUE&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd1feet_Plus_2Inch_Returns_14inch" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd1feet_Plus_1Feet_Returns_24inch" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare1_gallon_to_3pt78liters_returnTRUE" />
         <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2inch_Returns_4inch" />
         <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch" />
       </list>
     </recent_temporary>
   </component>
@@ -228,26 +230,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588002223373" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1588014402703">
+    <state x="353" y="6" key="CommitChangelistDialog2" timestamp="1588016959609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588014402703" />
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1588016142845">
+    <state x="353" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588016959609" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1588016952698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588016142845" />
-    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1588016142845">
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588016952698" />
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1588018275663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588016142845" />
-    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1588016142845">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
+    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1588018275663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588016142845" />
-    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1588016142845">
+    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
+    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1588018275663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588016142845" />
+    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1588018275663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1588014135963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -321,14 +327,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java</url>
-          <line>119</line>
-          <properties class="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" method="whenWeCompare2inch_5cm_returnTrue">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java</url>
           <line>143</line>
           <properties class="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" method="whenWeAdd1feet_Plus_1Feet_Returns_24inch">
             <option name="EMULATED" value="true" />
@@ -351,11 +349,19 @@
           </properties>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java</url>
+          <line>127</line>
+          <properties class="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" method="whenWeAdd2inch_Plus_2inch_Returns_4inch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuantityMersurement$QuantityMesurmentTest.ic" NAME="QuantityMesurmentTest Coverage Results" MODIFIED="1587732850174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/QuantityMersurement$QuantityMesurmentTest_whenWeCompare2inch_5cm_returnTrue.ic" NAME="QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue Coverage Results" MODIFIED="1588014098716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/QuantityMersurement$QuantityMesurmentTest_whenWeCompare2inch_5cm_returnTrue.ic" NAME="QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue Coverage Results" MODIFIED="1588017906568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

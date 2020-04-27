@@ -121,7 +121,7 @@ Assert.assertEquals(length,length1);
         SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
         SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.CENTIMETER,3.0);
         boolean comparecheck= smallestUnit.compare(smallestUnitq1);
-        Assert.assertFalse(comparecheck);
+        Assert.assertTrue(comparecheck);
     }
 
     @Test
@@ -156,5 +156,23 @@ Assert.assertEquals(length,length1);
         double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
         Assert.assertEquals(sum,3.0,0.0);
     }
+
+    @Test
+    public void whenWeCompare1_gallon_to_3pt78liters_returnTRUE()
+    {
+        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.GALLONS,1.0);
+        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,4.54609);
+        boolean comparecheck= comparingVolumes.compare(comparingVolumes1);
+        Assert.assertTrue(comparecheck);
+    }
+    @Test
+    public void whenWeCompare1_liters_to_1000mili_liters_returnTRUE()
+    {
+        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,1.0);
+        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.MILI_LITERS,1000.00);
+        boolean comparecheck= comparingVolumes.compare(comparingVolumes1);
+        Assert.assertTrue(comparecheck);
+    }
+    
 
 }
