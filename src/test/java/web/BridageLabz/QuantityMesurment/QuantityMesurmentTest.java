@@ -59,9 +59,16 @@ Assert.assertEquals(length,length1);
     }
 
     @Test
-    public void whenWeCheck1InchIsNotEqTo1Feet() {
+    public void whenWeCheck1InchIsEqTo1Feet() {
         Length length = new Length(Length.Unit.FEET,1.0);
         Length length1 = new Length(Length.Unit.INCH,12.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertTrue(comparecheck);
+    }
+    @Test
+    public void whenWeCheck12InchIsEqTo1Feet() {
+        Length length = new Length(Length.Unit.INCH,12.0);
+        Length length1 = new Length(Length.Unit.FEET,1.0);
         boolean comparecheck=length.compare(length1);
         Assert.assertTrue(comparecheck);
     }
