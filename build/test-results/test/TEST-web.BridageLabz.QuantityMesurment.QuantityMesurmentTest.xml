@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T05:15:34" hostname="DESKTOP-PNBK60O" time="0.003">
+<testsuite name="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T05:19:23" hostname="DESKTOP-PNBK60O" time="0.003">
   <properties/>
-  <testcase name="whenWeCompare1Yard_notEqTo_36inch_returnstrue" classname="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" time="0.003"/>
+  <testcase name="whenWeCompare1Yard_EqTo_3feet_returnstrue" classname="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

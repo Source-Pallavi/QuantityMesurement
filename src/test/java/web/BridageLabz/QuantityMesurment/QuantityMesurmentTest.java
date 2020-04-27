@@ -95,10 +95,25 @@ Assert.assertEquals(length,length1);
         Assert.assertFalse(comparecheck);
     }
     @Test
-    public void whenWeCompare1Yard_notEqTo_36inch_returnstrue() {
+    public void whenWeCompare1Yard_EqTo_36inch_returnstrue() {
         Length length = new Length(Length.Unit.YARD,1.0);
         Length length1 = new Length(Length.Unit.INCH,36.0);
         boolean comparecheck=length.compare(length1);
         Assert.assertFalse(comparecheck);
     }
+    @Test
+    public void whenWeCompare36Inch_EqTo_1Yard_returnstrue() {
+        Length length = new Length(Length.Unit.INCH,36.0);
+        Length length1 = new Length(Length.Unit.YARD,1.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertFalse(comparecheck);
+    }
+    @Test
+    public void whenWeCompare1Yard_EqTo_3feet_returnstrue() {
+        Length length = new Length(Length.Unit.YARD,1.0);
+        Length length1 = new Length(Length.Unit.FEET,3.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertFalse(comparecheck);
+    }
+
 }
