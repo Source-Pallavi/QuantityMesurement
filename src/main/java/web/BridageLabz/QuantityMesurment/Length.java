@@ -2,9 +2,11 @@ package web.BridageLabz.QuantityMesurment;
 
 public class Length {
     private static final double FEET_TO_INCH =12.0 ;
+    private static final double FEET_TO_YARD = 3.0;
+
     private final Unit unit;
     private final double value;
-    enum Unit{ FEET,INCH}
+    enum Unit{ FEET, YARD, INCH}
 
     public Length(Unit unit,double value)
     { this.unit=unit;
@@ -25,6 +27,8 @@ if(this.unit.equals(Unit.FEET)&&that.unit.equals(Unit.INCH))
 return Double.compare(this.value*FEET_TO_INCH,that.value)==0;
     if(this.unit.equals(Unit.INCH)&&that.unit.equals(Unit.FEET))
         return Double.compare(this.value,that.value*FEET_TO_INCH)==0;
+    if(this.unit.equals(Unit.FEET)&&that.unit.equals(Unit.YARD))
+        return Double.compare(this.value,that.value*FEET_TO_YARD)==0;
     return false;
 }
     @Override
