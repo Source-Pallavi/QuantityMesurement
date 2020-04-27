@@ -87,4 +87,11 @@ Assert.assertEquals(length,length1);
         boolean comparecheck=length.compare(length1);
         Assert.assertFalse(comparecheck);
     }
+    @Test
+    public void whenWeCompare1Inch_notEqTo_OneYardreturnsFALSE() {
+        Length length = new Length(Length.Unit.INCH,1.0);
+        Length length1 = new Length(Length.Unit.YARD,1.0);
+        boolean comparecheck=length.compare(length1);
+        Assert.assertFalse(comparecheck);
+    }
 }
