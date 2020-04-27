@@ -7,19 +7,13 @@ public class Length {
 
     private final Unit unit;
     private final double value;
-    enum Unit{ FEET, YARD, INCH}
+    enum Unit{ FEET, YARD, INCH
+     }
 
     public Length(Unit unit,double value)
     { this.unit=unit;
         this.value=value;
     }
-//    @Override
-//        if (this == that) return true;
-//        if (that == null || getClass() != that.getClass()) return false;
-//        Length length = (Length) that;
-//        if(this.unit.equals(((Length) that).unit) ) return true;
-//        return Double.compare(length.value, value) == 0;
-//    }
 public boolean compare(Length that)
 {
 if(this.unit.equals(Unit.FEET)&&that.unit.equals(Unit.FEET))
@@ -34,6 +28,11 @@ return Double.compare(this.value*FEET_TO_INCH,that.value)==0;
         return Double.compare(this.value,that.value*INCH_TO_YARD)==0;
     return false;
 }
+public boolean compare(SmallestUnit.SmallestUNIT that)
+{
+     double a= SmallestUnit.SmallestUNIT.convert(that);
+    return false;
+}
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -42,6 +41,5 @@ return Double.compare(this.value*FEET_TO_INCH,that.value)==0;
         return Double.compare(length.value, value) == 0 &&
                 unit == length.unit;
     }
-
 
 }

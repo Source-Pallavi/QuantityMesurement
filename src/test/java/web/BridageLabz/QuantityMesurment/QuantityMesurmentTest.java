@@ -116,4 +116,20 @@ Assert.assertEquals(length,length1);
         Assert.assertFalse(comparecheck);
     }
 
+    @Test
+    public void whenWeCompare2inch_5cm_returnTrue() {
+        SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.CENTIMETER,3.0);
+        boolean comparecheck= smallestUnit.compare(smallestUnitq1);
+        Assert.assertFalse(comparecheck);
+    }
+
+    @Test
+    public void whenWeAdd2inch_Plus_2inch_Returns_4inch()
+    {
+        SmallestUnit smallestUnit = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,2.0);
+        SmallestUnit smallestUnitq1 = new SmallestUnit(SmallestUnit.SmallestUNIT.INCH,3.0);
+        double sum= SmallestUnit.add(smallestUnit,smallestUnitq1);
+        Assert.assertEquals(sum,4.0,0.0);
+    }
 }
