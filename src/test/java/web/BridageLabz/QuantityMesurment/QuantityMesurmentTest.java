@@ -160,35 +160,61 @@ Assert.assertEquals(length,length1);
     @Test
     public void whenWeCompare1_gallon_to_3pt78liters_returnTRUE()
     {
-        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.GALLONS,1.0);
-        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,4.54609);
-        boolean comparecheck= comparingVolumes.compare(comparingVolumes1);
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.GALLONS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.LITERS,4.54609);
+        boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
         Assert.assertTrue(comparecheck);
     }
     @Test
     public void whenWeCompare1_liters_to_1000mili_liters_returnTRUE()
     {
-        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,1.0);
-        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.MILI_LITERS,1000.00);
-        boolean comparecheck= comparingVolumes.compare(comparingVolumes1);
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.LITERS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.MILI_LITERS,1000.00);
+        boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
         Assert.assertTrue(comparecheck);
     }
     @Test
     public void whenWeadd1_gallons_to_3pt78liters_equalsto7pt57()
     {
-        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.GALLONS,1.0);
-        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,3.78);
-        double comparecheck= ComparingVolumes.add(comparingVolumes1,comparingVolumes);
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.GALLONS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.LITERS,3.78);
+        double comparecheck= QuantityMesurement.add(quantityMesurement1, quantityMesurement);
         Assert.assertEquals(8.32609,comparecheck,0.0);
     }
     @Test
     public void whenWeadd1_liter_to_1000mililiters_equalsto2liter()
     {
-        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,1.0);
-        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.MILI_LITERS,1000);
-        double comparecheck= ComparingVolumes.add(comparingVolumes1,comparingVolumes);
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.LITERS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.MILI_LITERS,1000);
+        double comparecheck= QuantityMesurement.add(quantityMesurement1, quantityMesurement);
         Assert.assertEquals(2,comparecheck,0.0);
     }
+    @Test
+    public void whenWeCompare1_KG_to_1000GRAMS_returnTRUE()
+    {
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.KILO_GRAMS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.GRAMS,1000.00);
+        boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
+        Assert.assertTrue(comparecheck);
+    }
+    @Test
+    public void whenWeCompare1_tonn_to_1000kiloGRAMS_returnTRUE()
+    {
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.TONNS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.KILO_GRAMS,1000.00);
+        boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
+        Assert.assertTrue(comparecheck);
+    }
+    @Test
+    public void whenWeadd1_tonn_to_1000GRAMS_return1001kgs()
+    {
+        QuantityMesurement quantityMesurement = new QuantityMesurement(QuantityMesurement.UnitConversion.TONNS,1.0);
+        QuantityMesurement quantityMesurement1 = new QuantityMesurement(QuantityMesurement.UnitConversion.GRAMS,1000.00);
+        double comparecheck= QuantityMesurement.add(quantityMesurement1, quantityMesurement);
+        Assert.assertEquals(1001,comparecheck,0.0);
+    }
+    
+
 
 
     
