@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T20:11:16" hostname="DESKTOP-PNBK60O" time="0.006">
+<testsuite name="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T20:44:43" hostname="DESKTOP-PNBK60O" time="0.005">
   <properties/>
-  <testcase name="whenWeCompare1_liters_to_1000mili_liters_returnTRUE" classname="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" time="0.006"/>
-  <system-out><![CDATA[a1000.0
-a value   1000.0
+  <testcase name="whenWeadd1_liter_to_1000mililiters_equalsto2liter" classname="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" time="0.005"/>
+  <system-out><![CDATA[a0.001
+value of a 0.001
 a1.0
-b valuee   1.0
+value of b 1.0
+0.001 1.0sum 1.001
+2.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

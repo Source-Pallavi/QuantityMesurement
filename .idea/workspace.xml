@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88ea8be-ed2e-4bd6-8c1a-b16375e40c59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/ComparingVolumes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/ComparingVolumes$VolumeSmallestUNIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/ComparingVolumes$VolumeSmallestUNIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/ComparingVolumes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/ComparingVolumes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/SmallestUnit$SmallestUNIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/SmallestUnit$SmallestUNIT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/SmallestUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/SmallestUnit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.class" afterDir="false" />
@@ -24,6 +25,8 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/ComparingVolumes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/ComparingVolumes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/SmallestUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/SmallestUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,27 +92,7 @@
       <recent name="web.BridageLabz.QuantityMesurment" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE">
-    <configuration name="QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.QuantityMesurmentTest.whenWeadd1_liter_to_1000mililiters_equalsto2liter">
     <configuration name="QuantityMesurmentTest.whenWeAdd2inch_Plus_2inch_Returns_4inch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,12 +153,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMesurmentTest.whenWeadd1_gallons_to_3pt78liters_equalsto7pt57" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue&quot; --debug" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeadd1_gallons_to_3pt78liters_equalsto7pt57&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuantityMesurmentTest.whenWeadd1_liter_to_1000mililiters_equalsto2liter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.whenWeadd1_liter_to_1000mililiters_equalsto2liter&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeadd1_liter_to_1000mililiters_equalsto2liter" />
         <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare1_liters_to_1000mili_liters_returnTRUE" />
+        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeadd1_gallons_to_3pt78liters_equalsto7pt57" />
         <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare1_gallon_to_3pt78liters_returnTRUE" />
         <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2inch_Returns_4inch" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeCompare2inch_5cm_returnTrue" />
-        <item itemvalue="Gradle.QuantityMesurmentTest.whenWeAdd2inch_Plus_2_5CM_Returns_3inch" />
       </list>
     </recent_temporary>
   </component>
@@ -238,22 +241,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588016952698" />
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1588018275663">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1588020282439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
-    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1588018275663">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588020282439" />
+    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1588020282439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
-    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1588018275663">
+    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588020282439" />
+    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1588020282439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
-    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1588018275663">
+    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588020282439" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1588020282439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588018275663" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588020282439" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1588014135963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -356,6 +359,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java</url>
+          <line>160</line>
+          <properties class="web.BridageLabz.QuantityMesurment.QuantityMesurmentTest" method="whenWeCompare1_gallon_to_3pt78liters_returnTRUE">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

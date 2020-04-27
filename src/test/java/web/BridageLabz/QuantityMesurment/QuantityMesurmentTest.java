@@ -173,6 +173,24 @@ Assert.assertEquals(length,length1);
         boolean comparecheck= comparingVolumes.compare(comparingVolumes1);
         Assert.assertTrue(comparecheck);
     }
+    @Test
+    public void whenWeadd1_gallons_to_3pt78liters_equalsto7pt57()
+    {
+        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.GALLONS,1.0);
+        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,3.78);
+        double comparecheck= ComparingVolumes.add(comparingVolumes1,comparingVolumes);
+        Assert.assertEquals(8.32609,comparecheck,0.0);
+    }
+    @Test
+    public void whenWeadd1_liter_to_1000mililiters_equalsto2liter()
+    {
+        ComparingVolumes comparingVolumes = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.LITERS,1.0);
+        ComparingVolumes comparingVolumes1  = new ComparingVolumes(ComparingVolumes.VolumeSmallestUNIT.MILI_LITERS,1000);
+        double comparecheck= ComparingVolumes.add(comparingVolumes1,comparingVolumes);
+        Assert.assertEquals(2,comparecheck,0.0);
+    }
+
+
     
 
 }

@@ -13,7 +13,7 @@ public class ComparingVolumes
     }
 
     enum VolumeSmallestUNIT {
-        MILI_LITERS(1.00),GALLONS(4546.09),LITERS(1000.00);
+        MILI_LITERS(0.001),GALLONS(4.54609),LITERS(1.00);
 
         private final double value;
         VolumeSmallestUNIT(double value)
@@ -28,6 +28,16 @@ public class ComparingVolumes
             return variable;
         }
 
+    }
+
+    public static double add(ComparingVolumes value1, ComparingVolumes value2) {
+        double a=VolumeSmallestUNIT.convert(value1.unit);
+        System.out.println("value of a "+ a);
+        double b=VolumeSmallestUNIT.convert(value2.unit);
+        System.out.println("value of b "+b );
+        System.out.println(+a+" "+b+ "sum "+(a+b));
+        System.out.println(((a*value1.value)+(b*value2.value)));
+        return ((a*value1.value)+(b*value2.value));
     }
 
     public boolean compare(ComparingVolumes that)

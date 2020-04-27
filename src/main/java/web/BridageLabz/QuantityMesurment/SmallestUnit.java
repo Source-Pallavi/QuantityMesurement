@@ -1,12 +1,9 @@
 package web.BridageLabz.QuantityMesurment;
 
-import java.util.Objects;
-
 public class SmallestUnit {
     private final double value;
     private final SmallestUNIT unit;
     private final SmallestUNIT smallestUNIT=null;
-
     public SmallestUnit(SmallestUNIT unit, double value)
     {
         this.unit =unit;
@@ -58,8 +55,5 @@ public class SmallestUnit {
                 smallestUNIT == that.smallestUNIT;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(value, unit, smallestUNIT);
-    }
+
 }
