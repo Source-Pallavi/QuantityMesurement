@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d88ea8be-ed2e-4bd6-8c1a-b16375e40c59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Length.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/web/BridageLabz/QuantityMesurment/Length.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/web.BridageLabz.QuantityMesurment.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/web.BridageLabz.QuantityMesurment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-web.BridageLabz.QuantityMesurment.QuantityMesurmentTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/BridageLabz/QuantityMesurment/Length.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/BridageLabz/QuantityMesurment/QuantityMesurmentTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d88ea8be-ed2e-4bd6-8c1a-b16375e40c59" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
