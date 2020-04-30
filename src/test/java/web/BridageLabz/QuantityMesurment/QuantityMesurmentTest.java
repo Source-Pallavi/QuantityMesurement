@@ -27,7 +27,7 @@ public class QuantityMesurmentTest
         QuantityMesurement length = new QuantityMesurement(UnitConversion.INCH,0.0);
         QuantityMesurement length1 = new QuantityMesurement(UnitConversion.INCH,0.0);
          boolean equal= length.compare(length1);
-        Assert.assertTrue(equal);
+         Assert.assertTrue(equal);
     }
     @Test
     public void given0inchAnd1inch_shouldReturnNot_Equal()
@@ -215,17 +215,13 @@ public class QuantityMesurmentTest
         double comparecheck= QuantityMesurement.add(quantityMesurement1, quantityMesurement);
         Assert.assertEquals(1001,comparecheck,0.0);
     }
-//  @Test
-//  public void whenWeCompare212Frenheitdegree_to_100degreeCelcius_returnTRUE()
-//  {
-//      QuantityMesurement quantityMesurement = new QuantityMesurement(UnitConversion.FAHRENHEIT,212.0);
-//      QuantityMesurement quantityMesurement1 = new QuantityMesurement(UnitConversion.CELSIUS,100.00);
-//      boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
-//      Assert.assertTrue(comparecheck);
-//  }
-
-
-
-    
+// @Test
+// public void whenWeCompare212Frenheitdegree_to_100degreeCelcius_returnTRUE()
+// {
+//     TemperatureConversion quantityMesurement = new TemperatureConversion(Temperature.FAHRENHEIT,212.0);
+//     TemperatureConversion quantityMesurement1 = new TemperatureConversion(Temperature.CELSIUS,100.00);
+//     boolean comparecheck= quantityMesurement.compare(quantityMesurement1);
+//     Assert.assertFalse(comparecheck);
+// }
 
 }
